@@ -1,0 +1,7 @@
+to push changes:
+git add .
+git commit -m "description"
+git push
+
+to get changes:
+git pull
