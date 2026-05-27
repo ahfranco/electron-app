@@ -17,6 +17,22 @@ body {
   padding: 16px;
 }
 
+.gojo-button img{
+  transition: transform 0.3 ease;
+  transform-style: preserve-3d;
+}
+
+.gojo-button button:hover img {
+  transform: scale(1.1);
+  transform: rotateX(3deg) rotateY(4deg) ease;
+
+}
+
+.calendar-weekdays {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 button,
 input,
 textarea,

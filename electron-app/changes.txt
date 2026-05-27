@@ -1,7 +1,22 @@
-to push changes:
+If you create a new project:
+
+git init
+git add .
+git commit -m "first commit"
+
+Then create a new repo on GitHub and do the commands it prompts
+
+On the other machine:
+
+bashcd Desktop
+git clone https://github.com/ahfranco/new-repo-name.git
+
+To push changes:
+
 git add .
 git commit -m "description"
 git push
 
-to get changes:
+To get changes:
+
 git pull
