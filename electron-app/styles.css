@@ -2,37 +2,42 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
 
-  background: white;
+  background: #ffffff;
   user-select: none;
   -webkit-app-region: drag;
 }
 
+.month-section {
+  grid-column: 1 / -1;
+  background: #000000;
+  border-radius: 8px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
 .app {
-  padding: 16px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
 }
 
-.gojo-button img{
-  transition: transform 0.3 ease;
-  transform-style: preserve-3d;
+.left-days {
+  background: #000000;
+  border-radius: 8px;
+  padding-top: 64px;
+  padding-bottom: 48px;
+  padding-right: 64px;
+  padding-left: 64px;
 }
 
-.gojo-button button:hover img {
-  transform: scale(1.1);
-  transform: rotateX(3deg) rotateY(4deg) ease;
-
-}
-
-.calendar-weekdays {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
 button,
 input,
 textarea,
