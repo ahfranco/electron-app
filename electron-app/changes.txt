@@ -6,6 +6,10 @@ git commit -m "first commit"
 
 Then create a new repo on GitHub and do the commands it prompts
 
+git remote add origin https://github.com/ahfranco/repo-name.git
+git branch -M main
+git push -u origin main
+
 On the other machine:
 
 bashcd Desktop
